@@ -1,0 +1,9 @@
+Loyxani yaxshilash
+
+1) Navigation menu
+2) Asosiy qisim
+    Malumotlarni qo'shish
+    Rasim joylash
+    Ijtimoiy tarmoqlar qo'shish
+    Font-awasome xaqida
+3) statistika

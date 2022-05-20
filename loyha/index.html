@@ -4,44 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
     <!--  Header section -->
-    <header class="main-header">
-        <nav class="main-navigation">
-            <ul class="main-navigation__items">
-                <li class="main-navigation__item">
-                    <a href="">Asosiy qisim</a>
-                </li>
-                <li class="main-navigation__item" >
-                    <a href="">Men xaqimda</a>
-                </li>
-                <li class="main-navigation__item">
-                    <a href="">Xizmatlar</a>
-                </li>
-                <li class="main-navigation__item">
-                    <a href="">Mijozlar</a>
-                </li>
-                <li class="main-navigation__item">
-                    <a href="">Porfolyo</a>
-                </li>
-                <li class="main-navigation__item">
-                    <a href="">Blog</a>
-                </li>
-                <li class="main-navigation__item">
-                    <a href="">Sheriklar</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="main-header">
+            <div class="main-hider_brand">
+                <a href="">
+                    <img src="./Image/logo_new.webp" alt="">
+                </a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                    <li class="main-navigation__item active">
+                        <a href="">Asosiy</a>
+                    </li>
+                    <li class="main-navigation__item" >
+                        <a href="">Men xaqimda</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="">Xizmatlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="">Mijozlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="">Porfolyo</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="">Blog</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="">Sheriklar</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <!-- end Header section -->
 
     <!-- Main section  -->
-    <section id="main-section">
-        <h1>Asosiy qisim</h1>
-    </section>
-    <!-- end Main section  -->
+    <div class="container">
+        <section id="main-section" class="main-section">
+            <div class="main-sction__info">
+             <h4 class="main-section__welcome to-uppercase"> Hammaga salom </h4>
+             <h1 class="main-section__introduction to-uppercase">I am Mirsaid</h1>
+             <h3 class="main-section__position to-uppercase">Midle dasturchi & teacher</h3>
+            <div class="main-section__social-networks">
+                <a href="https://t.me/muqim1">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://t.me/muqim1">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://t.me/muqim1">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://t.me/muqim1">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+             <button class="main-section__action to-uppercase">
+                 Ishlarimni ko'ring
+             </button>
+            </div>
+            <div class="main-section__img">
+                <img src="./Image/person.png" alt="My image">
+            </div>
+         </section>
+         <div class="clearfix"></div>
+          <!-- end Main section  -->
+
+    <!-- Statistic-->
+       <section id="statistics" class="statistic">
+            <div class="statistics__item">
+               <h3 class="statistics__number">
+                9/10
+               </h3>
+               <p class="statistics__title">
+                O'rtacha reyting
+                </p>
+             </div>
+             <div class="statistics__item">
+                <h3 class="statistics__number">
+                 170K+
+                </h3>
+                <p class="statistics__title">
+                 Obunachilar
+                 </p>
+              </div>
+              <div class="statistics__item">
+                <h3 class="statistics__number">
+                 1K+
+                </h3>
+                <p class="statistics__title">
+                 Yordam
+                 </p>
+              </div>
+        </section>
+    <!-- end statistc-->
+    </div>
 
     <!-- About me   -->
     <section id="about-me">
