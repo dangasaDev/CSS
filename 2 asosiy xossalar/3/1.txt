@@ -1,0 +1,10 @@
+
+1) Block elementlar hamda Inline elementlar farqi
+
+
+
+2) Display
+ display:block;
+ display:inline;
+ display:inline-block;
+ display:none;
