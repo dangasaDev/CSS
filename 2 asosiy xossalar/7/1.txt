@@ -1,0 +1,7 @@
+1) Positions (Joylashtirish)
+
+static
+relative
+absolute
+fixed
+sticky

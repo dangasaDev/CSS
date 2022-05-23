@@ -1,0 +1,119 @@
+/* core style */
+
+body{
+    font-family: sans-serif;
+    background-color: #141414;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* main header */
+.main-header > div{
+    display: inline-block;
+}
+.main-header__brand{
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+}
+.main-header__brand img{
+    width: 100px;
+}
+.main-navigation{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+.main-navigation__item{
+    display: inline-block;
+    padding: 15px;
+}
+.main-navigation__item a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #878787;
+}
+.main-navigation__item.active a{
+    color: #ffff;
+}
+.main-navigation__item a:hover{
+    color: #ffff;
+}
+.main-registor{
+    vertical-align: middle;
+    width: 25%;
+    text-align: right;
+}
+.button{
+    width: 75px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.main-registor__login{
+    background-color: #141414;
+    color: white;
+}
+.main-registor__join{
+    background-color: white;
+}
+/* Main */
+
+.main-section{
+    padding-top: 30px;
+}
+.main-section__info{
+    width: 60%;
+    float: left;
+    color: white;
+    letter-spacing: 1.5px;
+   
+}
+.main-section__title{
+    font-size: 64px;
+    margin-bottom:20px;
+}
+.main-section__descriptin{
+    width: 550px;
+    line-height: 25px;
+}
+.main-section__button{
+    width: 120px;
+    height: 40px;
+    text-transform: capitalize;
+    background-color: white;
+}
+.main-section__companies{
+    padding-top: 80px;
+}
+.main-section__companies p{
+    color: #878787;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.main-section__company{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+.main-section__company img{
+    width: 110px;
+    height: 40px;
+}
+/* image */
+.main-image{
+    padding-top: 0;
+}
+.main-image img{
+    width: 800px;
+    position: absolute;
+    top: 0;
+    right: -30px;
+}
