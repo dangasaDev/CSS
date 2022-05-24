@@ -13,6 +13,7 @@ body{
 /* main header */
 .main-header > div{
     display: inline-block;
+
 }
 .main-header__brand{
     display: inline-block;
@@ -26,6 +27,8 @@ body{
     display: inline-block;
     vertical-align: middle;
     width: 40%;
+    position: relative;
+    z-index: 1;
 }
 .main-navigation__item{
     display: inline-block;
@@ -56,13 +59,17 @@ body{
     margin: 5px;
     font-weight: 500;
     letter-spacing: 1px;
+    cursor: pointer;
+
 }
 .main-registor__login{
     background-color: #141414;
     color: white;
+    z-index:2;
 }
 .main-registor__join{
     background-color: white;
+    z-index:2;
 }
 /* Main */
 
@@ -110,6 +117,7 @@ body{
 /* image */
 .main-image{
     padding-top: 0;
+    z-index:-3;
 }
 .main-image img{
     width: 800px;
